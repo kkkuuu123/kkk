@@ -1,5 +1,5 @@
 ### 自用接口：
-https://mirror.ghproxy.com/https://raw.githubusercontent.com/qirenzhidao/tvbox18/main/app.json
+https://mirror.ghproxy.com/https://raw.githubusercontent.com/kkkuuu123/kkk/main/app.json
 
 ### Panda Groove（pg）
 https://mirror.ghproxy.com/https://raw.githubusercontent.com/qirenzhidao/tvbox18/main/pg/jsm.json
