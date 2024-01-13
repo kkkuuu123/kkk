@@ -1,14 +1,14 @@
 {
-  "spider": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1705054893790/fan.txt;md5;4ceefaa8f9f80595929da0af9159645b",
-  "sites": [
+  "spider": "./jar/fm_push.jar;md5;5d1ab45ff233a49e9bc9b9a1554b38a9",
+  "lives": [
     {
-      "key": "豆豆",
-      "name": "🌕豆瓣推荐",
-      "type": 3,
-      "api": "csp_DouDou",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
+      "name": "adult_2023",
+      "type": 0,
+      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/qirenzhidao/tvbox18/main/json/adult_2023.txt",
+      "playerType": 2,
+      "ua": "okhttp/3.15",
+      "epg": "",
+      "logo": ""
     },
     {
       "name": "madou",
