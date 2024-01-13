@@ -1,0 +1,403 @@
+{
+  "spider": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1705054893790/fan.txt;md5;4ceefaa8f9f80595929da0af9159645b",
+  "sites": [
+    {
+      "key": "豆豆",
+      "name": "🌕豆瓣推荐",
+      "type": 3,
+      "api": "csp_DouDou",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "Wogg",
+      "name": "☁️阿里云盘",
+      "type": 3,
+      "api": "csp_Wogg",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 40,
+      "jar": "./pg/pg.jar;md5;f565a30b771f9b53e146226bd94a97c1",
+      "ext": "./pg/lib/tokenm.json$$$https://wogg.xyz/|wogg.xyz$$$null$$$1$$$./lib/wogg.json"
+    },
+    {
+      "key": "NanGua",
+      "name": "🍔南瓜|弹幕",
+      "type": 3,
+      "api": "csp_NanGua",
+      "searchable": 1,
+      "changeable": 1,
+      "jar": "./pg/pg.jar;md5;f565a30b771f9b53e146226bd94a97c1",
+      "ext": "null$$$1"
+    },
+    {
+      "key": "AList",
+      "name": "💻超清4K",
+      "type": 3,
+      "api": "csp_AList",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "timeout": 60,
+      "jar": "./pg/pg.jar;md5;f565a30b771f9b53e146226bd94a97c1",
+      "ext": {
+        "drives": [
+          {
+            "name": "自己搭建📡",
+            "search": true,
+            "searchable": true,
+            "server": "http://192.168.66.11:1234"
+          },
+          {
+            "name": "超清4K💻",
+            "search": true,
+            "searchable": true,
+            "server": "http://movie.wangzm.tk"
+          },
+          {
+            "name": "未成年🈲",
+            "search": true,
+            "searchable": true,
+            "server": "https://lala-ofbip.run.goorm.site"
+          }
+        ]
+      }
+    },
+    {
+      "key": "南瓜",
+      "name": "🎃南瓜┃App",
+      "type": 3,
+      "api": "csp_NanGua",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "77",
+      "name": "👒七七┃App",
+      "type": 3,
+      "api": "csp_Kunyu77",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "小柚",
+      "name": "🍊小柚┃App",
+      "type": 3,
+      "api": "csp_AppSK",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "FbjPcVZY48PN/RIZ5QqOrsp7JoZYCZdLEy9R9ri6ykNdUNSIsT3IgxCP9qyzByO7ZG6Z030vgWoyXGNlCJx9KFpYXtyZ3B/cLTtO0SAclaw3AOm0fS9oLx2taGF6hg=="
+    },
+    {
+      "key": "萌米",
+      "name": "👀萌米┃App",
+      "type": 3,
+      "api": "csp_AppMao",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "FbjKZ1gO+9u81wMIxzHg+7x1Oep4CIFuZAlCy8a4qCgjGLacnxDo6wiBr66jP3X8J2mRx31u1XgkTTVrENVjfhQKUN2Yi12XNWQSlmVZxLtiSaSiZG0xf1Hw"
+    },
+    {
+      "key": "嘿嘿",
+      "name": "💡嘿嘿┃App",
+      "type": 3,
+      "api": "csp_AppMao",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "FbjDcUxPqpfNr0QF4QvE6sExbcBEGIRZVnQTs7Kyyk1SScOZ8j/C1ATO/eqjASKwdHWA2zQtjGMwVDA+Ttluew9LCZzZnFyFNWEAlX0KjLdiSaX+NDNVdVG1JjEvnt3n7STfbcZ8C5QA+hYk60bwQH58e7eO7msRAJ0ZbmFDDly40NBDxuYsAq8lZuJzVkw0ZkMhqBM9YRPP8mMU/CJYsuBptunppHVQfFQjk8wxXjVRsNe75CuoY+zt9w+Smcm9PL37bGJHS6+1cFg1xMgqVxqvyPfuq5Dvyo1q66Q1NXwhDe4x21KVg4iRMET6Z3Jna25wcmku6xbznbFxlZqH3DqtpBKXLcNrx6n6vgn+/lHRmp5g13bG1xc/jwO78tZL0Pei6A=="
+    },
+    {
+      "key": "南坊",
+      "name": "☀南坊┃App",
+      "type": 3,
+      "api": "csp_AppMao",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "FbjCcU1KqpC5pkRX4Q3D+NciPclIFs4EHzRV89m3pENRS6PivxPrlXvH/4efUSWwUCWwwk8srkIDSXN9RIJkSCZPJqnRikLRakBH0XBB6uNlX6XgMjhUKBTbBXopnsWdvXX6OowIBLQ78wghs3yRbgJxOYvrglBVIeI4cTcDGxixtMJ+yL0zE9g1d+N2RH4JERZh3CoYXSO1hH420ARbjt08lerroREmfGoT8JEGfTFW3MrK3hWueIyRsyOllsj/P87VXSxEVLnwNm4fos8lCFL74+azvs61n89svqg="
+    },
+    {
+      "key": "星奇",
+      "name": "💥星奇┃App",
+      "type": 3,
+      "api": "csp_AppMao",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "FbjDcUxPqpfNr0QF4QvE6sExbd4UXJxJXzdL462ywU1XScGa5G6Hj0/c+Ou1GW6rdX6N2XIhnD46QzIsRoZ8bk4fG4OYi0iCaWwRj2ddkacwFqHtLjQhalHqIy0+kpiTv2eOfJYxTshgrxcJ+g3lEHx7ZLC9kB1TCfZUSHwqHB3tt6V/1OhRENIOZNRFfXVBEFd7jQg+J06kjCAF7z1Bt8hRvMjC2VcbQXsEz8MCZDgu06C9/wirWcTa/wWJsfT+Z7fXaDs+dIWMYiwf6td5CWTx6LfL6eTuiMhs2KU5Byw9F+4Y/AHBg4r+LEe+Hm4EM2d8X3ca5zHSj+kjmpXOiGDo4TalFqgTq67eggmthCbV2d131SKc03V+5gruudQQk/Tb9e4lg6SQhA9/5kWOOM/LRmkqIxSt6d0wpu7yKKh65enwKbgasc93/HnGr6W4LuZjf6eYnS2GgRzWRE0fT5lYNmxnWeRnYuLhoZbDqslAfJzg"
+    },
+    {
+      "key": "电影",
+      "name": "🗽电影┃App",
+      "type": 3,
+      "api": "csp_AppSK",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "FbjPcVZY48PN/RIZ5QqOrspkJ4ZHF98MCHVX87i5y01XUNSIsT3IgxCP9qyzByO7aWmK03MmmHYwQmNlCJx9KFpYWNSc3hbeLTlD3SAclaw3AOnn"
+    },
+    {
+      "key": "一起看 ",
+      "name": "🎉一起┃App",
+      "type": 3,
+      "api": "csp_YQKan",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "迪迪",
+      "name": "🌈迪迪┃App",
+      "api": "csp_AppYsV2",
+      "type": 3,
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://api123.adys.app/xgapp.php/v3/"
+    },
+    {
+      "key": "push_agent",
+      "name": "❌推送",
+      "type": 3,
+      "api": "csp_Push",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "api": "csp_fan",
+      "changeable": 0,
+      "key": "cc",
+      "name": "❌请勿相信视频中任何广告",
+      "quickSearch": 0,
+      "searchable": 0,
+      "type": 3
+    }
+  ],
+  "doh": [
+    {
+      "ips": [
+        "8.8.4.4",
+        "8.8.8.8"
+      ],
+      "name": "Google",
+      "url": "https://dns.google/dns-query"
+    },
+    {
+      "ips": [
+        "1.1.1.1",
+        "1.0.0.1",
+        "2606:4700:4700::1111",
+        "2606:4700:4700::1001"
+      ],
+      "name": "Cloudflare",
+      "url": "https://cloudflare-dns.com/dns-query"
+    },
+    {
+      "ips": [
+        "94.140.14.140",
+        "94.140.14.141"
+      ],
+      "name": "AdGuard",
+      "url": "https://dns.adguard.com/dns-query"
+    },
+    {
+      "ips": [
+        "9.9.9.9",
+        "149.112.112.112"
+      ],
+      "name": "Quad9",
+      "url": "https://dns.quad9.net/dns-quer"
+    }
+  ],
+  "parses": [
+    {
+      "name": "聚合",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "神秘的哥哥们",
+      "type": 1,
+      "url": "http://api.888484.xyz/神秘哥哥/super.php?v=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "tucheng",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "yzm",
+          "aliyun",
+          "RJuMao",
+          "bilibili",
+          "1905",
+          "xinvip",
+          "XAL",
+          "qiqi",
+          "XALS",
+          "YuMi-vip"
+        ]
+      }
+    },
+    {
+      "name": "免费分享",
+      "type": 0,
+      "url": "https://jx.xmflv.com/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "imgo",
+          "letv",
+          "乐视",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.1.0"
+        }
+      }
+    }
+  ],
+  "lives": [
+    {
+      "epg": "",
+      "logo": "",
+      "name": "直播",
+      "playerType": 2,
+      "type": 0,
+      "url": "./json/adult.txt"
+    }
+  ],
+  "rules": [
+    {
+      "hosts": [
+        "githubusercontent",
+        ".*.*"
+      ],
+      "name": "proxy"
+    },
+    {
+      "name": "海外看",
+      "hosts": [
+        "haiwaikan"
+      ],
+      "regex": [
+        "10.0099",
+        "10.3333",
+        "16.0599",
+        "8.1748",
+        "10.85"
+      ]
+    },
+    {
+      "name": "索尼",
+      "hosts": [
+        "suonizy"
+      ],
+      "regex": [
+        "15.1666",
+        "15.2666"
+      ]
+    },
+    {
+      "name": "暴風",
+      "hosts": [
+        "bfzy"
+      ],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ]
+    },
+    {
+      "name": "星星",
+      "hosts": [
+        "aws.ulivetv.net"
+      ],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ]
+    },
+    {
+      "name": "量子",
+      "hosts": [
+        "vip.lz",
+        "hd.lz",
+        "v.cdnlz"
+      ],
+      "regex": [
+        "18.5333"
+      ]
+    },
+    {
+      "name": "非凡",
+      "hosts": [
+        "vip.ffzy",
+        "hd.ffzy"
+      ],
+      "regex": [
+        "25.0666",
+        "25.08"
+      ]
+    },
+    {
+      "name": "火山嗅探",
+      "hosts": [
+        "huoshan.com"
+      ],
+      "regex": [
+        "item_id="
+      ]
+    },
+    {
+      "name": "抖音嗅探",
+      "hosts": [
+        "douyin.com"
+      ],
+      "regex": [
+        "is_play_url="
+      ]
+    },
+    {
+      "name": "農民嗅探",
+      "hosts": [
+        "toutiaovod.com"
+      ],
+      "regex": [
+        "video/tos/cn"
+      ]
+    }
+  ]
+}
